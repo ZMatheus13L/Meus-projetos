@@ -1,0 +1,27 @@
+*{
+    margin: auto;
+    padding: 0;
+}
+
+.planilha{
+    text-align: center;
+    background-color: #34a223;
+}
+
+.titulo{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.meses{
+    width: 8%;
+}
+
+.linha1{
+    background-color: #87CEEb;
+}
+
+input {
+    width: 50%;
+    border: 1px solid rgb(rgb(197, 187, 187));
+} 

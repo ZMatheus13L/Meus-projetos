@@ -24,3 +24,30 @@ function valorDolar(valor) {
 }
 
 console.log(`R$ ${valorDolar(2)}`);
+
+function salao(alto, largura) {
+    let area = alto * largura;
+    let perimetro = alto + alto + largura + largura;
+    console.log(`${area}m`);
+    return area && perimetro;
+}
+
+console.log(`${salao(10, 20)}m`);
+
+function redondo(raio) {
+    let area = 3.14 * raio * raio;
+    let perimetro = 2 * 3.14 * raio;
+    console.log(`${area}m`);
+    return area && perimetro;
+}
+
+console.log(`${redondo(1)}m`);
+
+function tabuada(num) {
+    for(let nu = 0; nu <= 10; nu++) {
+       let resultado = nu * num;
+       console.log(resultado);
+    }
+}
+
+console.log(tabuada(2));

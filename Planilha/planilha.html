@@ -4,45 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Planilha</title>
+    <link rel="stylesheet" href="planilha.css">
 </head>
 <body>
     <header> 
-        <h1>Planilha</h1>
+        <h1 class="planilha">Planilha</h1>
     </header>
     <main>
-        <table border="1">
-            <tr>
-                <th><h2>Receita(R)</h2></th>
-                <th>Janeiro</th>
-                <th>Fevereiro</th>
-                <th>Março</th>
-                <th>Abril</th>
-                <th>Maio</th>
-                <th>Junho</th>
-                <th>Julho</th>
-                <th>Agosto</th>
-                <th>Setembro</th>
-                <th>Outubro</th>
-                <th>Novembro</th>
-                <th>Dezembro</th>
+        <table>
+            <tr class="linha1">
+                <th class="titulo"><h2>Receita(R)</h2></th>
+                <th class="meses">Janeiro</th>
+                <th class="meses">Fevereiro</th>
+                <th class="meses">Março</th>
+                <th class="meses">Abril</th>
+                <th class="meses">Maio</th>
+                <th class="meses">Junho</th>
+                <th class="meses">Julho</th>
+                <th class="meses">Agosto</th>
+                <th class="meses">Setembro</th>
+                <th class="meses">Outubro</th>
+                <th class="meses">Novembro</th>
+                <th class="meses">Dezembro</th>
             </tr>
             <tr>
-                <td>Salário</td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-            </tr>
-            <tr>
-                <td>Salário Cônjuge</td>
+                <td class="titulo">Salário</td>
                 <td><input type="number"></td>
                 <td><input type="number"></td>
                 <td><input type="number"></td>
@@ -57,7 +43,7 @@
                 <td><input type="number"></td>
             </tr>
             <tr>
-                <td>Transferências(Aplic., Resg., TED...)</td>
+                <td class="titulo">Salário Cônjuge</td>
                 <td><input type="number"></td>
                 <td><input type="number"></td>
                 <td><input type="number"></td>
@@ -72,7 +58,7 @@
                 <td><input type="number"></td>
             </tr>
             <tr>
-                <td>Outros(Alugéis; Pensão)</td>
+                <td class="titulo">Transferências(Aplic., Resg., TED...)</td>
                 <td><input type="number"></td>
                 <td><input type="number"></td>
                 <td><input type="number"></td>
@@ -87,7 +73,22 @@
                 <td><input type="number"></td>
             </tr>
             <tr>
-                <th><h3>Receita Total</h3></th>
+                <td class="titulo">Outros(Alugéis; Pensão)</td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+            </tr>
+            <tr>
+                <th class="titulo"><h3>Receita Total</h3></th>
                 <th><h3>R$ -</h3></th>
                 <th><h3>R$ -</h3></th>
                 <th><h3>R$ -</h3></th>
@@ -102,25 +103,10 @@
                 <th><h3>R$ -</h3></th>
             </tr>
             <tr>
-                <th><h2>Despesas Essenciais(D1)</h2></th>
+                <th class="titulo"><h2>Despesas Essenciais(D1)</h2></th>
             </tr>
             <tr>
-                <td>Condominio</td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-            </tr>
-            <tr>
-                <td>Aluguel</td>
+                <td class="titulo">Condominio</td>
                 <td><input type="number"></td>
                 <td><input type="number"></td>
                 <td><input type="number"></td>
@@ -135,7 +121,7 @@
                 <td><input type="number"></td>
             </tr>
             <tr>
-                <td>Transporte</td>
+                <td class="titulo">Aluguel</td>
                 <td><input type="number"></td>
                 <td><input type="number"></td>
                 <td><input type="number"></td>
@@ -150,7 +136,7 @@
                 <td><input type="number"></td>
             </tr>
             <tr>
-                <td>Alimentação</td>
+                <td class="titulo">Transporte</td>
                 <td><input type="number"></td>
                 <td><input type="number"></td>
                 <td><input type="number"></td>
@@ -165,7 +151,7 @@
                 <td><input type="number"></td>
             </tr>
             <tr>
-                <td>Luz</td>
+                <td class="titulo">Alimentação</td>
                 <td><input type="number"></td>
                 <td><input type="number"></td>
                 <td><input type="number"></td>
@@ -180,7 +166,7 @@
                 <td><input type="number"></td>
             </tr>
             <tr>
-                <td>Água</td>
+                <td class="titulo">Luz</td>
                 <td><input type="number"></td>
                 <td><input type="number"></td>
                 <td><input type="number"></td>
@@ -195,7 +181,7 @@
                 <td><input type="number"></td>
             </tr>
             <tr>
-                <td>Internet</td>
+                <td class="titulo">Água</td>
                 <td><input type="number"></td>
                 <td><input type="number"></td>
                 <td><input type="number"></td>
@@ -210,7 +196,7 @@
                 <td><input type="number"></td>
             </tr>
             <tr>
-                <td>Transferências(Aplic., Resg., TED...)</td>
+                <td class="titulo">Internet</td>
                 <td><input type="number"></td>
                 <td><input type="number"></td>
                 <td><input type="number"></td>
@@ -225,7 +211,7 @@
                 <td><input type="number"></td>
             </tr>
             <tr>
-                <td>Vila Amalfi</td>
+                <td class="titulo">Transferências(Aplic., Resg., TED...)</td>
                 <td><input type="number"></td>
                 <td><input type="number"></td>
                 <td><input type="number"></td>
@@ -240,7 +226,7 @@
                 <td><input type="number"></td>
             </tr>
             <tr>
-                <td>Cartão de crédito</td>
+                <td class="titulo">Vila Amalfi</td>
                 <td><input type="number"></td>
                 <td><input type="number"></td>
                 <td><input type="number"></td>
@@ -255,7 +241,7 @@
                 <td><input type="number"></td>
             </tr>
             <tr>
-                <td>Diarista</td>
+                <td class="titulo">Cartão de crédito</td>
                 <td><input type="number"></td>
                 <td><input type="number"></td>
                 <td><input type="number"></td>
@@ -270,7 +256,7 @@
                 <td><input type="number"></td>
             </tr>
             <tr>
-                <td>Manutenção apto</td>
+                <td class="titulo">Diarista</td>
                 <td><input type="number"></td>
                 <td><input type="number"></td>
                 <td><input type="number"></td>
@@ -285,7 +271,7 @@
                 <td><input type="number"></td>
             </tr>
             <tr>
-                <td>Empréstimo</td>
+                <td class="titulo">Manutenção apto</td>
                 <td><input type="number"></td>
                 <td><input type="number"></td>
                 <td><input type="number"></td>
@@ -299,27 +285,312 @@
                 <td><input type="number"></td>
                 <td><input type="number"></td>
             </tr>
-            <tr></tr>
-            <tr></tr>
-            <tr></tr>
-            <tr></tr>
-            <tr></tr>
-            <tr></tr>
-            <tr></tr>
-            <tr></tr>
-            <tr></tr>
-            <tr></tr>
-            <tr></tr>
-            <tr></tr>
-            <tr></tr>
-            <tr></tr>
-            <tr></tr>
-            <tr></tr>
-            <tr></tr>
-            <tr></tr>
-            <tr></tr>
-            <tr></tr>
-            <tr></tr>
+            <tr>
+                <td class="titulo">Empréstimo</td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+            </tr>
+            <tr>
+                <td class="titulo">Saques</td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+            </tr>
+            <tr>
+                <td class="titulo">Outros</td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+            </tr>
+            <tr>
+                <th class="titulo"><h3>Despesas Essenciais</h3></th>
+                <th><h3>R$ -</h3></th>
+                <th><h3>R$ -</h3></th>
+                <th><h3>R$ -</h3></th>
+                <th><h3>R$ -</h3></th>
+                <th><h3>R$ -</h3></th>
+                <th><h3>R$ -</h3></th>
+                <th><h3>R$ -</h3></th>
+                <th><h3>R$ -</h3></th>
+                <th><h3>R$ -</h3></th>
+                <th><h3>R$ -</h3></th>
+                <th><h3>R$ -</h3></th>
+                <th><h3>R$ -</h3></th>
+            </tr>
+            <tr>
+                <th class="titulo"><h2>Despesas Não Essenciais(D2)</h2></th>
+            </tr>
+            <tr>
+                <td class="titulo">Academia</td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+            </tr>
+            <tr>
+                <td class="titulo">Estudos</td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+            </tr>
+            <tr>
+                <td class="titulo">Alimentação (Gastos extras)</td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+            </tr>
+            <tr>
+                <td class="titulo">Celular (Mensalidade)</td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+            </tr>
+            <tr>
+                <td class="titulo">Assinaturas Mensais</td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+            </tr>
+            <tr>
+                <td class="titulo">Entreterimento Mensal</td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+            </tr>
+            <tr>
+                <td class="titulo">Dentista</td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+            </tr>
+            <tr>
+                <td class="titulo">Mãe</td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+            </tr>
+            <tr>
+                <td class="titulo">Outros.</td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+            </tr>
+            <tr>
+                <th class="titulo"><h3>Despesas Não Essenciais</h3></th>
+                <th><h3></h3></th>
+                <th><h3></h3></th>
+                <th><h3></h3></th>
+                <th><h3></h3></th>
+                <th><h3></h3></th>
+                <th><h3></h3></th>
+                <th><h3></h3></th>
+                <th><h3></h3></th>
+                <th><h3></h3></th>
+                <th><h3></h3></th>
+                <th><h3></h3></th>
+                <th><h3></h3></th>
+            </tr>
+            <tr>
+                <th class="titulo"><h2>Reservas Mensais</h2></th>
+            </tr>
+            <tr>
+                <td class="titulo">Montante Investido no mês</td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+            </tr>
+            <tr>
+                <td class="titulo">Total de Investimentos em Médio e Longo P.</td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+            </tr>
+            <tr>
+                <td class="titulo">Total de Investimentos em Curto Prazo</td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+            </tr>
+            <tr>
+                <td class="titulo">% de Sobra</td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+            </tr>
+            <tr>
+                <td class="titulo">Quanto Falta para o Fundo Emergência?</td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+            </tr>
+            <tr>
+                <th class="titulo"><h3>Sobra Mensal (R-D1-D2)</h3></th>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+            </tr>
         </table>
     </main>
     <footer></footer>
