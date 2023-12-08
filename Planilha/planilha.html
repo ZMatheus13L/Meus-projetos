@@ -14,585 +14,616 @@
         <table>
             <tr class="linha1">
                 <th class="titulo"><h2>Receita(R)</h2></th>
-                <th class="meses">Janeiro</th>
-                <th class="meses">Fevereiro</th>
-                <th class="meses">Março</th>
-                <th class="meses">Abril</th>
-                <th class="meses">Maio</th>
-                <th class="meses">Junho</th>
-                <th class="meses">Julho</th>
-                <th class="meses">Agosto</th>
-                <th class="meses">Setembro</th>
-                <th class="meses">Outubro</th>
-                <th class="meses">Novembro</th>
-                <th class="meses">Dezembro</th>
+                <th onclick="janeiro()" class="meses">Janeiro</th>
+                <th onclick="fevereiro()" class="meses">Fevereiro</th>
+                <th onclick="marco()" class="meses">Março</th>
+                <th onclick="abril()" class="meses">Abril</th>
+                <th onclick="maio()" class="meses">Maio</th>
+                <th onclick="junho()" class="meses">Junho</th>
+                <th onclick="julho()" class="meses">Julho</th>
+                <th onclick="agosto()" class="meses">Agosto</th>
+                <th onclick="setembro()" class="meses">Setembro</th>
+                <th onclick="outubro()" class="meses">Outubro</th>
+                <th onclick="novembro()" class="meses">Novembro</th>
+                <th onclick="dezembro()" class="meses">Dezembro</th>
             </tr>
             <tr>
                 <td class="titulo">Salário</td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
+                <td><input id="salario1" type="number"></td>
+                <td><input id="salario2" type="number"></td>
+                <td><input id="salario3" type="number"></td>
+                <td><input id="salario4" type="number"></td>
+                <td><input id="salario5" type="number"></td>
+                <td><input id="salario6" type="number"></td>
+                <td><input id="salario7" type="number"></td>
+                <td><input id="salario8" type="number"></td>
+                <td><input id="salario9" type="number"></td>
+                <td><input id="salario10" type="number"></td>
+                <td><input id="salario11" type="number"></td>
+                <td><input id="salario12" type="number"></td>
             </tr>
             <tr>
                 <td class="titulo">Salário Cônjuge</td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
+                <td><input id="conjuge1" type="number"></td>
+                <td><input id="conjuge2" type="number"></td>
+                <td><input id="conjuge3" type="number"></td>
+                <td><input id="conjuge4" type="number"></td>
+                <td><input id="conjuge5" type="number"></td>
+                <td><input id="conjuge6" type="number"></td>
+                <td><input id="conjuge7" type="number"></td>
+                <td><input id="conjuge8" type="number"></td>
+                <td><input id="conjuge9" type="number"></td>
+                <td><input id="conjuge10" type="number"></td>
+                <td><input id="conjuge11" type="number"></td>
+                <td><input id="conjuge12" type="number"></td>
             </tr>
             <tr>
                 <td class="titulo">Transferências(Aplic., Resg., TED...)</td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
+                <td><input id="transferencias1" type="number"></td>
+                <td><input id="transferencias2" type="number"></td>
+                <td><input id="transferencias3" type="number"></td>
+                <td><input id="transferencias4" type="number"></td>
+                <td><input id="transferencias5" type="number"></td>
+                <td><input id="transferencias6" type="number"></td>
+                <td><input id="transferencias7" type="number"></td>
+                <td><input id="transferencias8" type="number"></td>
+                <td><input id="transferencias9" type="number"></td>
+                <td><input id="transferencias10" type="number"></td>
+                <td><input id="transferencias11" type="number"></td>
+                <td><input id="transferencias12" type="number"></td>
             </tr>
             <tr>
                 <td class="titulo">Outros(Alugéis; Pensão)</td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
+                <td><input id="outros1" type="number"></td>
+                <td><input id="outros2" type="number"></td>
+                <td><input id="outros3" type="number"></td>
+                <td><input id="outros4" type="number"></td>
+                <td><input id="outros5" type="number"></td>
+                <td><input id="outros6" type="number"></td>
+                <td><input id="outros7" type="number"></td>
+                <td><input id="outros8" type="number"></td>
+                <td><input id="outros9" type="number"></td>
+                <td><input id="outros10" type="number"></td>
+                <td><input id="outros11" type="number"></td>
+                <td><input id="outros12" type="number"></td>
             </tr>
             <tr>
-                <th class="titulo"><h3>Receita Total</h3></th>
-                <th><h3>R$ -</h3></th>
-                <th><h3>R$ -</h3></th>
-                <th><h3>R$ -</h3></th>
-                <th><h3>R$ -</h3></th>
-                <th><h3>R$ -</h3></th>
-                <th><h3>R$ -</h3></th>
-                <th><h3>R$ -</h3></th>
-                <th><h3>R$ -</h3></th>
-                <th><h3>R$ -</h3></th>
-                <th><h3>R$ -</h3></th>
-                <th><h3>R$ -</h3></th>
-                <th><h3>R$ -</h3></th>
+                <th class="total"><h3>Receita Total</h3></th>
+                <th><h3 id="total1">R$ -</h3></th>
+                <th><h3 id="total2">R$ -</h3></th>
+                <th><h3 id="total3">R$ -</h3></th>
+                <th><h3 id="total4">R$ -</h3></th>
+                <th><h3 id="total5">R$ -</h3></th>
+                <th><h3 id="total6">R$ -</h3></th>
+                <th><h3 id="total7">R$ -</h3></th>
+                <th><h3 id="total8">R$ -</h3></th>
+                <th><h3 id="total9">R$ -</h3></th>
+                <th><h3 id="total10">R$ -</h3></th>
+                <th><h3 id="total11">R$ -</h3></th>
+                <th><h3 id="total12">R$ -</h3></th>
             </tr>
-            <tr>
+            <tr class="linha1">
                 <th class="titulo"><h2>Despesas Essenciais(D1)</h2></th>
             </tr>
             <tr>
                 <td class="titulo">Condominio</td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
+                <td><input id="condominio1" type="number"></td>
+                <td><input id="condominio2" type="number"></td>
+                <td><input id="condominio3" type="number"></td>
+                <td><input id="condominio4" type="number"></td>
+                <td><input id="condominio5" type="number"></td>
+                <td><input id="condominio6" type="number"></td>
+                <td><input id="condominio7" type="number"></td>
+                <td><input id="condominio8" type="number"></td>
+                <td><input id="condominio9" type="number"></td>
+                <td><input id="condominio10" type="number"></td>
+                <td><input id="condominio11" type="number"></td>
+                <td><input id="condominio12" type="number"></td>
             </tr>
             <tr>
                 <td class="titulo">Aluguel</td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
+                <td><input id="aluguel1" type="number"></td>
+                <td><input id="aluguel2" type="number"></td>
+                <td><input id="aluguel3" type="number"></td>
+                <td><input id="aluguel4" type="number"></td>
+                <td><input id="aluguel5" type="number"></td>
+                <td><input id="aluguel6" type="number"></td>
+                <td><input id="aluguel7" type="number"></td>
+                <td><input id="aluguel8" type="number"></td>
+                <td><input id="aluguel9" type="number"></td>
+                <td><input id="aluguel10" type="number"></td>
+                <td><input id="aluguel11" type="number"></td>
+                <td><input id="aluguel12" type="number"></td>
             </tr>
             <tr>
                 <td class="titulo">Transporte</td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
+                <td><input id="transporte1" type="number"></td>
+                <td><input id="transporte2" type="number"></td>
+                <td><input id="transporte3" type="number"></td>
+                <td><input id="transporte4" type="number"></td>
+                <td><input id="transporte5" type="number"></td>
+                <td><input id="transporte6" type="number"></td>
+                <td><input id="transporte7" type="number"></td>
+                <td><input id="transporte8" type="number"></td>
+                <td><input id="transporte9" type="number"></td>
+                <td><input id="transporte10" type="number"></td>
+                <td><input id="transporte11" type="number"></td>
+                <td><input id="transporte12" type="number"></td>
             </tr>
             <tr>
                 <td class="titulo">Alimentação</td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
+                <td><input id="alimentacao1" type="number"></td>
+                <td><input id="alimentacao2" type="number"></td>
+                <td><input id="alimentacao3" type="number"></td>
+                <td><input id="alimentacao4" type="number"></td>
+                <td><input id="alimentacao5" type="number"></td>
+                <td><input id="alimentacao6" type="number"></td>
+                <td><input id="alimentacao7" type="number"></td>
+                <td><input id="alimentacao8" type="number"></td>
+                <td><input id="alimentacao9" type="number"></td>
+                <td><input id="alimentacao10" type="number"></td>
+                <td><input id="alimentacao11" type="number"></td>
+                <td><input id="alimentacao12" type="number"></td>
             </tr>
             <tr>
                 <td class="titulo">Luz</td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
+                <td><input id="luz1" type="number"></td>
+                <td><input id="luz2" type="number"></td>
+                <td><input id="luz3" type="number"></td>
+                <td><input id="luz4" type="number"></td>
+                <td><input id="luz5" type="number"></td>
+                <td><input id="luz6" type="number"></td>
+                <td><input id="luz7" type="number"></td>
+                <td><input id="luz8" type="number"></td>
+                <td><input id="luz9" type="number"></td>
+                <td><input id="luz10" type="number"></td>
+                <td><input id="luz11" type="number"></td>
+                <td><input id="luz12" type="number"></td>
             </tr>
             <tr>
                 <td class="titulo">Água</td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
+                <td><input id="agua1" type="number"></td>
+                <td><input id="agua2" type="number"></td>
+                <td><input id="agua3" type="number"></td>
+                <td><input id="agua4" type="number"></td>
+                <td><input id="agua5" type="number"></td>
+                <td><input id="agua6" type="number"></td>
+                <td><input id="agua7" type="number"></td>
+                <td><input id="agua8" type="number"></td>
+                <td><input id="agua9" type="number"></td>
+                <td><input id="agua10" type="number"></td>
+                <td><input id="agua11" type="number"></td>
+                <td><input id="agua12" type="number"></td>
             </tr>
             <tr>
                 <td class="titulo">Internet</td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
+                <td><input id="internet1" type="number"></td>
+                <td><input id="internet2" type="number"></td>
+                <td><input id="internet3" type="number"></td>
+                <td><input id="internet4" type="number"></td>
+                <td><input id="internet5" type="number"></td>
+                <td><input id="internet6" type="number"></td>
+                <td><input id="internet7" type="number"></td>
+                <td><input id="internet8" type="number"></td>
+                <td><input id="internet9" type="number"></td>
+                <td><input id="internet10" type="number"></td>
+                <td><input id="internet11" type="number"></td>
+                <td><input id="internet12" type="number"></td>
             </tr>
             <tr>
                 <td class="titulo">Transferências(Aplic., Resg., TED...)</td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
+                <td><input id="Transferencias1" type="number"></td>
+                <td><input id="Transferencias2" type="number"></td>
+                <td><input id="Transferencias3" type="number"></td>
+                <td><input id="Transferencias4" type="number"></td>
+                <td><input id="Transferencias5" type="number"></td>
+                <td><input id="Transferencias6" type="number"></td>
+                <td><input id="Transferencias7" type="number"></td>
+                <td><input id="Transferencias8" type="number"></td>
+                <td><input id="Transferencias9" type="number"></td>
+                <td><input id="Transferencias10" type="number"></td>
+                <td><input id="Transferencias11" type="number"></td>
+                <td><input id="Transferencias12" type="number"></td>
             </tr>
             <tr>
                 <td class="titulo">Vila Amalfi</td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
+                <td><input id="amalfi1" type="number"></td>
+                <td><input id="amalfi2" type="number"></td>
+                <td><input id="amalfi3" type="number"></td>
+                <td><input id="amalfi4" type="number"></td>
+                <td><input id="amalfi5" type="number"></td>
+                <td><input id="amalfi6" type="number"></td>
+                <td><input id="amalfi7" type="number"></td>
+                <td><input id="amalfi8" type="number"></td>
+                <td><input id="amalfi9" type="number"></td>
+                <td><input id="amalfi10" type="number"></td>
+                <td><input id="amalfi11" type="number"></td>
+                <td><input id="amalfi12" type="number"></td>
             </tr>
             <tr>
                 <td class="titulo">Cartão de crédito</td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
+                <td><input id="cartao1" type="number"></td>
+                <td><input id="cartao2" type="number"></td>
+                <td><input id="cartao3" type="number"></td>
+                <td><input id="cartao4" type="number"></td>
+                <td><input id="cartao5" type="number"></td>
+                <td><input id="cartao6" type="number"></td>
+                <td><input id="cartao7" type="number"></td>
+                <td><input id="cartao8" type="number"></td>
+                <td><input id="cartao9" type="number"></td>
+                <td><input id="cartao10" type="number"></td>
+                <td><input id="cartao11" type="number"></td>
+                <td><input id="cartao12" type="number"></td>
             </tr>
             <tr>
                 <td class="titulo">Diarista</td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
+                <td><input id="diarista1" type="number"></td>
+                <td><input id="diarista2" type="number"></td>
+                <td><input id="diarista3" type="number"></td>
+                <td><input id="diarista4" type="number"></td>
+                <td><input id="diarista5" type="number"></td>
+                <td><input id="diarista6" type="number"></td>
+                <td><input id="diarista7" type="number"></td>
+                <td><input id="diarista8" type="number"></td>
+                <td><input id="diarista9" type="number"></td>
+                <td><input id="diarista10" type="number"></td>
+                <td><input id="diarista11" type="number"></td>
+                <td><input id="diarista12" type="number"></td>
             </tr>
             <tr>
                 <td class="titulo">Manutenção apto</td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
+                <td><input id="manutencao1" type="number"></td>
+                <td><input id="manutencao2" type="number"></td>
+                <td><input id="manutencao3" type="number"></td>
+                <td><input id="manutencao4" type="number"></td>
+                <td><input id="manutencao5" type="number"></td>
+                <td><input id="manutencao6" type="number"></td>
+                <td><input id="manutencao7" type="number"></td>
+                <td><input id="manutencao8" type="number"></td>
+                <td><input id="manutencao9" type="number"></td>
+                <td><input id="manutencao10" type="number"></td>
+                <td><input id="manutencao11" type="number"></td>
+                <td><input id="manutencao12" type="number"></td>
             </tr>
             <tr>
                 <td class="titulo">Empréstimo</td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
+                <td><input id="emprestimo1" type="number"></td>
+                <td><input id="emprestimo2" type="number"></td>
+                <td><input id="emprestimo3" type="number"></td>
+                <td><input id="emprestimo4" type="number"></td>
+                <td><input id="emprestimo5" type="number"></td>
+                <td><input id="emprestimo6" type="number"></td>
+                <td><input id="emprestimo7" type="number"></td>
+                <td><input id="emprestimo8" type="number"></td>
+                <td><input id="emprestimo9" type="number"></td>
+                <td><input id="emprestimo10" type="number"></td>
+                <td><input id="emprestimo11" type="number"></td>
+                <td><input id="emprestimo12" type="number"></td>
             </tr>
             <tr>
                 <td class="titulo">Saques</td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
+                <td><input id="saques1" type="number"></td>
+                <td><input id="saques2" type="number"></td>
+                <td><input id="saques3" type="number"></td>
+                <td><input id="saques4" type="number"></td>
+                <td><input id="saques5" type="number"></td>
+                <td><input id="saques6" type="number"></td>
+                <td><input id="saques7" type="number"></td>
+                <td><input id="saques8" type="number"></td>
+                <td><input id="saques9" type="number"></td>
+                <td><input id="saques10" type="number"></td>
+                <td><input id="saques11" type="number"></td>
+                <td><input id="saques12" type="number"></td>
             </tr>
             <tr>
                 <td class="titulo">Outros</td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
+                <td><input id="Outros1" type="number"></td>
+                <td><input id="Outros2" type="number"></td>
+                <td><input id="Outros3" type="number"></td>
+                <td><input id="Outros4" type="number"></td>
+                <td><input id="Outros5" type="number"></td>
+                <td><input id="Outros6" type="number"></td>
+                <td><input id="Outros7" type="number"></td>
+                <td><input id="Outros8" type="number"></td>
+                <td><input id="Outros9" type="number"></td>
+                <td><input id="Outros10" type="number"></td>
+                <td><input id="Outros11" type="number"></td>
+                <td><input id="Outros12" type="number"></td>
             </tr>
             <tr>
-                <th class="titulo"><h3>Despesas Essenciais</h3></th>
-                <th><h3>R$ -</h3></th>
-                <th><h3>R$ -</h3></th>
-                <th><h3>R$ -</h3></th>
-                <th><h3>R$ -</h3></th>
-                <th><h3>R$ -</h3></th>
-                <th><h3>R$ -</h3></th>
-                <th><h3>R$ -</h3></th>
-                <th><h3>R$ -</h3></th>
-                <th><h3>R$ -</h3></th>
-                <th><h3>R$ -</h3></th>
-                <th><h3>R$ -</h3></th>
-                <th><h3>R$ -</h3></th>
+                <th class="titulo"><h3 class="total">Despesas Essenciais</h3></th>
+                <th><h3 id="essenciais1">R$ -</h3></th>
+                <th><h3 id="essenciais2">R$ -</h3></th>
+                <th><h3 id="essenciais3">R$ -</h3></th>
+                <th><h3 id="essenciais4">R$ -</h3></th>
+                <th><h3 id="essenciais5">R$ -</h3></th>
+                <th><h3 id="essenciais6">R$ -</h3></th>
+                <th><h3 id="essenciais7">R$ -</h3></th>
+                <th><h3 id="essenciais8">R$ -</h3></th>
+                <th><h3 id="essenciais9">R$ -</h3></th>
+                <th><h3 id="essenciais10">R$ -</h3></th>
+                <th><h3 id="essenciais11">R$ -</h3></th>
+                <th><h3 id="essenciais12">R$ -</h3></th>
             </tr>
-            <tr>
+            <tr class="linha1">
                 <th class="titulo"><h2>Despesas Não Essenciais(D2)</h2></th>
             </tr>
             <tr>
                 <td class="titulo">Academia</td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
+                <td><input id="academia1" type="number"></td>
+                <td><input id="academia2" type="number"></td>
+                <td><input id="academia3" type="number"></td>
+                <td><input id="academia4" type="number"></td>
+                <td><input id="academia5" type="number"></td>
+                <td><input id="academia6" type="number"></td>
+                <td><input id="academia7" type="number"></td>
+                <td><input id="academia8" type="number"></td>
+                <td><input id="academia9" type="number"></td>
+                <td><input id="academia10" type="number"></td>
+                <td><input id="academia11" type="number"></td>
+                <td><input id="academia12" type="number"></td>
             </tr>
             <tr>
                 <td class="titulo">Estudos</td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
+                <td><input id="estudos1" type="number"></td>
+                <td><input id="estudos2" type="number"></td>
+                <td><input id="estudos3" type="number"></td>
+                <td><input id="estudos4" type="number"></td>
+                <td><input id="estudos5" type="number"></td>
+                <td><input id="estudos6" type="number"></td>
+                <td><input id="estudos7" type="number"></td>
+                <td><input id="estudos8" type="number"></td>
+                <td><input id="estudos9" type="number"></td>
+                <td><input id="estudos10" type="number"></td>
+                <td><input id="estudos11" type="number"></td>
+                <td><input id="estudos12" type="number"></td>
             </tr>
             <tr>
                 <td class="titulo">Alimentação (Gastos extras)</td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
+                <td><input id="alimentoExtra1" type="number"></td>
+                <td><input id="alimentoExtra2" type="number"></td>
+                <td><input id="alimentoExtra3" type="number"></td>
+                <td><input id="alimentoExtra4" type="number"></td>
+                <td><input id="alimentoExtra5" type="number"></td>
+                <td><input id="alimentoExtra6" type="number"></td>
+                <td><input id="alimentoExtra7" type="number"></td>
+                <td><input id="alimentoExtra8" type="number"></td>
+                <td><input id="alimentoExtra9" type="number"></td>
+                <td><input id="alimentoExtra10" type="number"></td>
+                <td><input id="alimentoExtra11" type="number"></td>
+                <td><input id="alimentoExtra12" type="number"></td>
             </tr>
             <tr>
                 <td class="titulo">Celular (Mensalidade)</td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
+                <td><input id="celular1" type="number"></td>
+                <td><input id="celular2" type="number"></td>
+                <td><input id="celular3" type="number"></td>
+                <td><input id="celular4" type="number"></td>
+                <td><input id="celular5" type="number"></td>
+                <td><input id="celular6" type="number"></td>
+                <td><input id="celular7" type="number"></td>
+                <td><input id="celular8" type="number"></td>
+                <td><input id="celular9" type="number"></td>
+                <td><input id="celular10" type="number"></td>
+                <td><input id="celular11" type="number"></td>
+                <td><input id="celular12" type="number"></td>
             </tr>
             <tr>
                 <td class="titulo">Assinaturas Mensais</td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
+                <td><input id="assinaturas1" type="number"></td>
+                <td><input id="assinaturas2" type="number"></td>
+                <td><input id="assinaturas3" type="number"></td>
+                <td><input id="assinaturas4" type="number"></td>
+                <td><input id="assinaturas5" type="number"></td>
+                <td><input id="assinaturas6" type="number"></td>
+                <td><input id="assinaturas7" type="number"></td>
+                <td><input id="assinaturas8" type="number"></td>
+                <td><input id="assinaturas9" type="number"></td>
+                <td><input id="assinaturas10" type="number"></td>
+                <td><input id="assinaturas11" type="number"></td>
+                <td><input id="assinaturas12" type="number"></td>
             </tr>
             <tr>
                 <td class="titulo">Entreterimento Mensal</td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
+                <td><input id="entreterimento1" type="number"></td>
+                <td><input id="entreterimento2" type="number"></td>
+                <td><input id="entreterimento3" type="number"></td>
+                <td><input id="entreterimento4" type="number"></td>
+                <td><input id="entreterimento5" type="number"></td>
+                <td><input id="entreterimento6" type="number"></td>
+                <td><input id="entreterimento7" type="number"></td>
+                <td><input id="entreterimento8" type="number"></td>
+                <td><input id="entreterimento9" type="number"></td>
+                <td><input id="entreterimento10" type="number"></td>
+                <td><input id="entreterimento11" type="number"></td>
+                <td><input id="entreterimento12" type="number"></td>
             </tr>
             <tr>
                 <td class="titulo">Dentista</td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
+                <td><input id="dentista1" type="number"></td>
+                <td><input id="dentista2" type="number"></td>
+                <td><input id="dentista3" type="number"></td>
+                <td><input id="dentista4" type="number"></td>
+                <td><input id="dentista5" type="number"></td>
+                <td><input id="dentista6" type="number"></td>
+                <td><input id="dentista7" type="number"></td>
+                <td><input id="dentista8" type="number"></td>
+                <td><input id="dentista9" type="number"></td>
+                <td><input id="dentista10" type="number"></td>
+                <td><input id="dentista11" type="number"></td>
+                <td><input id="dentista12" type="number"></td>
             </tr>
             <tr>
                 <td class="titulo">Mãe</td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
+                <td><input id="mae1" type="number"></td>
+                <td><input id="mae2" type="number"></td>
+                <td><input id="mae3" type="number"></td>
+                <td><input id="mae4" type="number"></td>
+                <td><input id="mae5" type="number"></td>
+                <td><input id="mae6" type="number"></td>
+                <td><input id="mae7" type="number"></td>
+                <td><input id="mae8" type="number"></td>
+                <td><input id="mae9" type="number"></td>
+                <td><input id="mae10" type="number"></td>
+                <td><input id="mae11" type="number"></td>
+                <td><input id="mae12" type="number"></td>
             </tr>
             <tr>
                 <td class="titulo">Outros.</td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
+                <td><input id="OutroS1" type="number"></td>
+                <td><input id="OutroS2" type="number"></td>
+                <td><input id="OutroS3" type="number"></td>
+                <td><input id="OutroS4" type="number"></td>
+                <td><input id="OutroS5" type="number"></td>
+                <td><input id="OutroS6" type="number"></td>
+                <td><input id="OutroS7" type="number"></td>
+                <td><input id="OutroS8" type="number"></td>
+                <td><input id="OutroS9" type="number"></td>
+                <td><input id="OutroS10" type="number"> </td>
+                <td><input id="OutroS11" type="number"></td>
+                <td><input id="OutroS12" type="number"></td>
             </tr>
             <tr>
-                <th class="titulo"><h3>Despesas Não Essenciais</h3></th>
-                <th><h3></h3></th>
-                <th><h3></h3></th>
-                <th><h3></h3></th>
-                <th><h3></h3></th>
-                <th><h3></h3></th>
-                <th><h3></h3></th>
-                <th><h3></h3></th>
-                <th><h3></h3></th>
-                <th><h3></h3></th>
-                <th><h3></h3></th>
-                <th><h3></h3></th>
-                <th><h3></h3></th>
+                <th class="titulo"><h3 class="total">Despesas Não Essenciais</h3></th>
+                <th><h3 id="naoEssenciais1"></h3></th>
+                <th><h3 id="naoEssenciais2"></h3></th>
+                <th><h3 id="naoEssenciais3"></h3></th>
+                <th><h3 id="naoEssenciais4"></h3></th>
+                <th><h3 id="naoEssenciais5"></h3></th>
+                <th><h3 id="naoEssenciais6"></h3></th>
+                <th><h3 id="naoEssenciais7"></h3></th>
+                <th><h3 id="naoEssenciais8"></h3></th>
+                <th><h3 id="naoEssenciais9"></h3></th>
+                <th><h3 id="naoEssenciais10"></h3></th>
+                <th><h3 id="naoEssenciais11"></h3></th>
+                <th><h3 id="naoEssenciais12"></h3></th>
             </tr>
-            <tr>
+            <tr class="linha1">
                 <th class="titulo"><h2>Reservas Mensais</h2></th>
             </tr>
             <tr>
                 <td class="titulo">Montante Investido no mês</td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
+                <td><input id="montante1" type="number"></td>
+                <td><input id="montante2" type="number"></td>
+                <td><input id="montante3" type="number"></td>
+                <td><input id="montante4" type="number"></td>
+                <td><input id="montante5" type="number"></td>
+                <td><input id="montante6" type="number"></td>
+                <td><input id="montante7" type="number"></td>
+                <td><input id="montante8" type="number"></td>
+                <td><input id="montante9" type="number"></td>
+                <td><input id="montante10" type="number"></td>
+                <td><input id="montante11" type="number"></td>
+                <td><input id="montante12" type="number"></td>
             </tr>
             <tr>
                 <td class="titulo">Total de Investimentos em Médio e Longo P.</td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
+                <td><input id="totalInvestido1" type="number"></td>
+                <td><input id="totalInvestido2" type="number"></td>
+                <td><input id="totalInvestido3" type="number"></td>
+                <td><input id="totalInvestido4" type="number"></td>
+                <td><input id="totalInvestido5" type="number"></td>
+                <td><input id="totalInvestido6" type="number"></td>
+                <td><input id="totalInvestido7" type="number"></td>
+                <td><input id="totalInvestido8" type="number"></td>
+                <td><input id="totalInvestido9" type="number"></td>
+                <td><input id="totalInvestido10" type="number"></td>
+                <td><input id="totalInvestido11" type="number"></td>
+                <td><input id="totalInvestido12" type="number"></td>
             </tr>
             <tr>
                 <td class="titulo">Total de Investimentos em Curto Prazo</td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
+                <td><input id="TotalInvestido1" type="number"></td>
+                <td><input id="TotalInvestido2" type="number"></td>
+                <td><input id="TotalInvestido3" type="number"></td>
+                <td><input id="TotalInvestido4" type="number"></td>
+                <td><input id="TotalInvestido5" type="number"></td>
+                <td><input id="TotalInvestido6" type="number"></td>
+                <td><input id="TotalInvestido7" type="number"></td>
+                <td><input id="TotalInvestido8" type="number"></td>
+                <td><input id="TotalInvestido9" type="number"></td>
+                <td><input id="TotalInvestido10" type="number"></td>
+                <td><input id="TotalInvestido11" type="number"></td>
+                <td><input id="TotalInvestido12" type="number"></td>
             </tr>
             <tr>
                 <td class="titulo">% de Sobra</td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
+                <td><input id="sobra1" type="number"></td>
+                <td><input id="sobra2" type="number"></td>
+                <td><input id="sobra3" type="number"></td>
+                <td><input id="sobra4" type="number"></td>
+                <td><input id="sobra5" type="number"></td>
+                <td><input id="sobra6" type="number"></td>
+                <td><input id="sobra7" type="number"></td>
+                <td><input id="sobra8" type="number"></td>
+                <td><input id="sobra9" type="number"></td>
+                <td><input id="sobra10" type="number"></td>
+                <td><input id="sobra11" type="number"></td>
+                <td><input id="sobra12" type="number"></td>
             </tr>
             <tr>
                 <td class="titulo">Quanto Falta para o Fundo Emergência?</td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
+                <td><input id="fundoEmergencia1" type="number"></td>
+                <td><input id="fundoEmergencia2" type="number"></td>
+                <td><input id="fundoEmergencia3" type="number"></td>
+                <td><input id="fundoEmergencia4" type="number"></td>
+                <td><input id="fundoEmergencia5" type="number"></td>
+                <td><input id="fundoEmergencia6" type="number"></td>
+                <td><input id="fundoEmergencia7" type="number"></td>
+                <td><input id="fundoEmergencia8" type="number"></td>
+                <td><input id="fundoEmergencia9" type="number"></td>
+                <td><input id="fundoEmergencia10" type="number"></td>
+                <td><input id="fundoEmergencia11" type="number"></td>
+                <td><input id="fundoEmergencia12" type="number"></td>
             </tr>
             <tr>
-                <th class="titulo"><h3>Sobra Mensal (R-D1-D2)</h3></th>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
-                <td><input type="number"></td>
+                <th class="linha1"><h3 class="total">Total Reservado</h3></th>
+                <td><h3 class="center" id="totalReservado1"></h3></td>
+                <td><h3 class="center" id="totalReservado2"></h3></td>
+                <td><h3 class="center" id="totalReservado3"></h3></td>
+                <td><h3 class="center" id="totalReservado4"></h3></td>
+                <td><h3 class="center" id="totalReservado5"></h3></td>
+                <td><h3 class="center" id="totalReservado6"></h3></td>
+                <td><h3 class="center" id="totalReservado7"></h3></td>
+                <td><h3 class="center" id="totalReservado8"></h3></td>
+                <td><h3 class="center" id="totalReservado9"></h3></td>
+                <td><h3 class="center" id="totalReservado10"></h3></td>
+                <td><h3 class="center" id="totalReservado11"></h3></td>
+                <td><h3 class="center" id="totalReservado12"></h3></td>                
+            </tr>
+            <tr>
+                <th class="linha1"><h3 class="total">Total Gasto</h3></th>
+                <td><h3 class="center" id="totalGasto1"></h3></td>
+                <td><h3 class="center" id="totalGasto2"></h3></td>
+                <td><h3 class="center" id="totalGasto3"></h3></td>
+                <td><h3 class="center" id="totalGasto4"></h3></td>
+                <td><h3 class="center" id="totalGasto5"></h3></td>
+                <td><h3 class="center" id="totalGasto6"></h3></td>
+                <td><h3 class="center" id="totalGasto7"></h3></td>
+                <td><h3 class="center" id="totalGasto8"></h3></td>
+                <td><h3 class="center" id="totalGasto9"></h3></td>
+                <td><h3 class="center" id="totalGasto10"></h3></td>
+                <td><h3 class="center" id="totalGasto11"></h3></td>
+                <td><h3 class="center" id="totalGasto12"></h3></td>
+            </tr>
+            <tr>
+                <th class="linha1"><h3 class="titulo">Sobra Mensal (R-D1-D2)</h3></th>
+                <td><h3 class="center" id="sobraMensal1"></h3></td>
+                <td><h3 class="center" id="sobraMensal2"></h3></td>
+                <td><h3 class="center" id="sobraMensal3"></h3></td>
+                <td><h3 class="center" id="sobraMensal4"></h3></td>
+                <td><h3 class="center" id="sobraMensal5"></h3></td>
+                <td><h3 class="center" id="sobraMensal6"></h3></td>
+                <td><h3 class="center" id="sobraMensal7"></h3></td>
+                <td><h3 class="center" id="sobraMensal8"></h3></td>
+                <td><h3 class="center" id="sobraMensal9"></h3></td>
+                <td><h3 class="center" id="sobraMensal10"></h3></td>
+                <td><h3 class="center" id="sobraMensal11"></h3></td>
+                <td><h3 class="center" id="sobraMensal12"></h3></td>
             </tr>
         </table>
     </main>
     <footer></footer>
+    <script src="planilha.js"></script>
 </body>
 </html>
