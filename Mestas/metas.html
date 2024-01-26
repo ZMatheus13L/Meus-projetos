@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metas para o ano</title>
+    <link rel="stylesheet" href="metas.css">
+</head>
+<body>
+    <header>
+    <div class="vertical">
+        <h1 class="comeco">AQUI VOCÊ VAI CRIAR OBJETIVOS PARA 2024</h1>
+    </div>
+    <button class="comecar" onclick="comecar()">Começar</button>
+    </header>
+    <section>
+        <main class="passado" id="passado">
+            <h1>Reflita sobre o ano que passou</h1>
+                <button class="pular" id="pular" onclick="comoesta()"><strong>Pular para como está?</strong></button>
+                <br>
+                <button class="pular" id="pular" onclick="objetivos()"><strong>Pular para objetivos</strong></button>
+            <select name="janeiro" onclick="mes1()" id="janeiro" class="meses">
+                <option value="j">janeiro</option>
+            </select>
+
+            <br>
+            <textarea name="janeiro1" id="janeiro1" class="janeiro" cols="100" rows="20"></textarea>
+            <br>
+
+            <select name="fevereiro" onclick="mes2()" id="fevereiro" class="meses">
+                <option value="f">fevereiro</option>
+            </select>
+
+            <br>
+            <textarea name="fevereiro1" id="fevereiro1" class="fevereiro" cols="100" rows="20"></textarea>
+            <br>
+
+            <select name="marco" id="marco" onclick="mes3()" class="meses">
+                <option value="m">marco</option>
+            </select>
+
+            <br>
+            <textarea name="marco1" id="marco1" class="marco" cols="100" rows="20"></textarea>
+            <br>
+
+            <select name="abril" id="abril" onclick="mes4()" class="meses">
+                <option value="a">abril</option>
+            </select>
+
+            <br>
+            <textarea name="abril1" id="abril1" class="abril" cols="100" rows="20"></textarea>
+            <br>
+
+            <select name="maio" onclick="mes5()" id="maio" class="meses">
+                <option value="m2">maio</option>
+            </select>
+
+            <br>
+            <textarea name="maio1" id="maio1" class="maio" cols="100" rows="20"></textarea>
+            <br>
+
+            <select name="junho" id="junho" onclick="mes6()" class="meses">
+                <option value="j2">junho</option>
+            </select>
+
+            <br>
+            <textarea name="junho1" id="junho1" class="junho" cols="100" rows="20"></textarea>
+            <br>
+
+            <select name="julho" onclick="mes7()" id="julho" class="meses">
+                <option value="j3">julho</option>
+            </select>
+
+            <br>
+            <textarea name="julho1" id="julho1" class="julho" cols="100" rows="20"></textarea>
+            <br>
+
+            <select name="agosto" id="agosto" onclick="mes8()" class="meses">
+                <option value="a2">agosto</option>
+            </select>
+
+            <br>
+            <textarea name="agosto1" id="agosto1" class="agosto" cols="100" rows="20"></textarea>
+            <br>
+
+            <select name="setembro" id="setembro" onclick="mes9()" class="meses">
+                <option value="s">setembro</option>
+            </select>
+
+            <br>
+            <textarea name="setembro1" id="setembro1" class="setembro" cols="100" rows="20"></textarea>
+            <br>
+
+            <select name="outubro" onclick="mes10()" id="outubro" class="meses">
+                <option value="o">outubro</option>
+            </select>
+
+            <br>
+            <textarea name="outubro1" id="outubro1" class="outubro" cols="100" rows="20"></textarea>
+            <br>
+
+            <select name="novembro" onclick="mes11()" id="novembro" class="meses">
+                <option value="n">novembro</option>
+            </select>
+
+            <br>
+            <textarea name="novembro1" id="novembro1" class="novembro" cols="100" rows="20"></textarea>
+            <br>
+
+            <select name="dezembro" id="dezembro" onclick="mes12()" class="meses">
+                <option value="d">dezembro</option>
+            </select>
+
+            <br>
+            <textarea name="dezembro1" id="dezembro1" class="dezembro" cols="100" rows="20"></textarea>
+            <br>
+
+            <p id="data" class="data"></p>
+            <button class="proximo" onclick="proximo()">Próximo</button>
+        </main>
+        <main class="presente" id="presente">
+            <h1>Como você está no momento?</h1>
+            <button class="pular" id="pular" onclick="objetivos()"><strong>Pular para objetivos</strong></button>
+            <button class="voltar" id="voltar" onclick="comofoi()"><strong>Voltar para como foi o ano?</strong></button>
+            <textarea name="agora" id="agora" class="agora" cols="100" rows="20"></textarea>
+            <p id="data2" class="data2"></p>
+            <button class="proximo" onclick="proximo2()">Próximo</button>
+        </main>
+        <main class="futuro" id="futuro">
+            <h2>Como criar objetivos e metas?</h2>
+            <p class="metas">
+               1 - Pense em coisas que você quer para sua vida, como comprar alguma coisa ou  fazer alguma coisa. <br>
+               2 - Esse objetivo é alcansável? <br>
+               3 - Em quanto tempo quer completá-lo? 1 mês, 2 meses, 6 meses. <br>
+               4 - Ele é muito fácil?
+            </p>
+            <h1>Crie objetivos para o ano</h1>
+                <button class="voltar" id="voltar" onclick="comofoi()"><strong>Voltar para como foi o ano?</strong></button>
+                <button class="voltar" id="voltar" onclick="comoesta2()"><strong>Voltar para como está?</strong></button>
+                <button class="objetivos" onclick="criando()">+ Criar um objetivo</button>
+            <div id="criando"></div>
+            <p id="data3" class="data3">data</p>
+            <button class="proximo" onclick="proximo3()">Finalizar</button>
+        </main>
+    </section>
+    <footer class="final" id="final">
+        <h1 class="titulo">Pronto!!!</h1>
+        <h3>Agora tire um print das suas anotações,<br>
+            e comece a tomar as ações para cumprir seus objetivos.<br>
+            No final do ano, veja se conseguiu cumprir todos os seus objetivos.
+        </h3>
+        <p class="creditos">&copyZMatheus13L</p>
+    </footer>
+    <script src="metas.js"></script>
+</body>
+</html>
