@@ -27,6 +27,7 @@ function comecar() {
 function comofoi() {
     presente.style.display = "none";
     futuro.style.display = "none";
+    final.style.display = "none";
 }
 
 function comoesta() {
@@ -35,6 +36,7 @@ function comoesta() {
 
 function comoesta2() {
     futuro.style.display = "none";
+    final.style.display = "none";
 }
 
 function objetivos() {
